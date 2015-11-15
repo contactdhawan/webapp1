@@ -15,7 +15,7 @@ public class OfferController {
 	public ModelAndView displayHome(){
 		ModelAndView mav = new ModelAndView("home");
 		Map<String,Object> model= mav.getModel();
-		model.put("name", "sean");
+		model.put("name", "Neeraj");
 		//session.setAttribute("name", "neeraj");
 		return mav;
 		//return "home";
