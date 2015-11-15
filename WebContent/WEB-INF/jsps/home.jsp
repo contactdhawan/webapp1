@@ -12,7 +12,6 @@
 </head>
 <body>
 Hi there
-<%= session.getAttribute("name") %>
 
 <p>
 <%= request.getAttribute("name") %>
